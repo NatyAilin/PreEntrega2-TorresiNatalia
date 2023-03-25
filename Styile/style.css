@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 .miNab{
@@ -21,4 +23,33 @@
 .button{
     background-color: #001219;
     border-radius: 0 50%;
+}
+
+header{
+    width: 100%;
+}
+
+.nosotros{
+    font-size: 60px;
+    color: #E9D8A6;
+}
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-image: url(../img/imgMain.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster, cursive';
+}
+
+.info{
+    width: 70%;
+    background-color: rgba(0, 18, 25, 0.5);
+    float: right;
+    padding: 40px;
+    margin: 50px;
+    border: 8px solid #EE9B00;
 }
