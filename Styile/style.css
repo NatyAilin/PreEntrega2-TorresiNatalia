@@ -72,6 +72,7 @@ h2{
     text-transform: capitalize;
     color: #EE9B00;
     padding: 20px;
+    margin: 0px;
 }
 
 .infoNosotros{
@@ -90,6 +91,7 @@ h2{
 
 .iright{
     width: 50%;
+    margin: 0;
 }
 
 .iright p{
@@ -105,4 +107,62 @@ h2{
     text-align: center;
     font-family: 'Lobster', cursive;
     text-transform: capitalize;
+}
+
+.fotos{
+    width: 100%;
+    padding: 40px;
+    background-color: #9B2226;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 500px);
+    grid-gap: 15px;
+    background-position: center;
+    background-size: contain;
+}
+
+.img{
+    background-color: blueviolet;
+    border: 2px solid #000;
+    background-size: contain;
+    background-position: center;
+    filter: sepia(70%);
+}
+
+.img:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: sepia(0%);
+}
+
+.img1{
+    background-image: url(../img/img1.jpg);
+}
+
+.img2{
+    background-image: url(../img/img2.jpg);
+}
+
+.img3{
+    background-image: url(../img/img3.jpg);
+}
+
+.img4{
+    background-image: url(../img/img4.jpg);
+}
+
+.img5{
+    background-image: url(../img/img5.jpg);
+}
+
+.img6{
+    background-image: url(../img/img6.jpg);
+}
+
+.img7{
+    background-image: url(../img/img7.jpg);
+}
+
+.img8{
+    background-image: url(../img/img8.jpg);
 }
