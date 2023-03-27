@@ -188,7 +188,7 @@ footer i:hover{
     color: #001219;
 }
 
-h3{
+.titulo{
     background-color: #0A9396;
     color: #E9D8A6;
     font-family: 'Lobster', cursive;
@@ -233,7 +233,7 @@ h3{
 
 .col2{
     font-family: 'Source Serif Pro', serif; 
-    font-size: 35px;
+    font-size: 30px;
     color: #E9D8A6;
     text-align: center;
     padding: 40px;
@@ -265,3 +265,46 @@ h3{
 }
 
 /* Fin estilo Peliula 2 */
+
+/* Inicio Serei 1 */
+
+.tituloS1{
+    padding: 30px;
+    margin: 0;
+}
+
+.colS1{
+    background-image: url(../img/serie1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1700px;
+}
+
+.colS2{
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 35px;
+    color: #E9D8A6;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Fin Serie 1 */
+
+/* Inicio Serie 2 */
+
+.colSe1{
+    background-image: url(../img/serie2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1400px;
+}
+
+.colSe2{
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 35px;
+    color: #E9D8A6;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Fin Serien 2 */
