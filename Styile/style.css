@@ -47,6 +47,7 @@ header{
 main{
     height: calc(100vh - 80px);
     width: 100%;
+    background-color: #AE2012;
     background-image: url(../img/imgMain.jpg);
     background-size: cover;
     background-position: center;
@@ -186,3 +187,56 @@ footer i{
 footer i:hover{
     color: #001219;
 }
+
+/* Estilos de la Peliculas 1*/
+
+.inicio{
+    background-color: #94D2BD;
+}
+
+.inicio a{
+    color: #001219;
+    font-family: 'Source Serif Pro', serif; 
+}
+
+.inicio i{
+    color: #001219;
+}
+
+h3{
+    background-color: #0A9396;
+    color: #E9D8A6;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 0;
+}
+
+.tituloP1{
+    padding: 30px;
+    margin: 0;
+}
+
+.row{
+    background-color: #CA6702;
+    padding: 90px;
+}
+
+.col1{
+    background-image: url(../img/peli1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #CA6702;
+    height: 1600px;
+}
+
+.col2{
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 35px;
+    color: #E9D8A6;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Fin estilos de la Peliculas 1*/
