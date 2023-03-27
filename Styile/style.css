@@ -188,6 +188,16 @@ footer i:hover{
     color: #001219;
 }
 
+h3{
+    background-color: #0A9396;
+    color: #E9D8A6;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 0;
+}
+
 /* Estilos de la Peliculas 1*/
 
 .inicio{
@@ -201,16 +211,6 @@ footer i:hover{
 
 .inicio i{
     color: #001219;
-}
-
-h3{
-    background-color: #0A9396;
-    color: #E9D8A6;
-    font-family: 'Lobster', cursive;
-    font-size: 60px;
-    text-align: center;
-    padding: 45px;
-    margin: 0;
 }
 
 .tituloP1{
@@ -240,3 +240,28 @@ h3{
 }
 
 /* Fin estilos de la Peliculas 1*/
+
+/* Inicio estilo Pelicula 2 */
+
+.tituloP2{
+    padding: 30px;
+    margin: 0;
+}
+
+.colP1{
+    background-image: url(../img/peli2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1700px;
+}
+
+
+.colP2{
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 35px;
+    color: #E9D8A6;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Fin estilo Peliula 2 */
