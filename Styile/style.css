@@ -58,7 +58,7 @@ main {
 }
 
 .info {
-    width: 70%;
+    width: 50%;
     background-color: rgba(0, 18, 25, 0.5);
     float: right;
     padding: 40px;
@@ -224,7 +224,7 @@ footer i:hover {
 }
 
 .col1 {
-    background-image: url(../img/peli1.jpg);
+    background-image: url(../img/peli1.1.1.jpg);
     background-size: cover;
     background-position: center;
     background-color: #CA6702;
@@ -274,10 +274,11 @@ footer i:hover {
 }
 
 .colS1 {
-    background-image: url(../img/serie1.jpg);
+    background-image: url(../img/Serie\ 1.1.jpg);
     background-position: center;
     background-size: cover;
-    height: 1700px;
+    height: 800px;
+    width: 100%;
 }
 
 .colS2 {
@@ -310,20 +311,20 @@ footer i:hover {
 /* Fin Serien 2 */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 560px) {
 
     .info {
-        padding: 50px;
+        padding: 30px;
         margin: 0;
         height: auto;
     }
 
     .info p {
-        font-size: 20px;
-    }
+        font-size: 15px;
+        }
 
     .nosotros {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .infoNosotros {
@@ -343,8 +344,8 @@ footer i:hover {
         height: auto;
         padding: 20px;
         margin: 0;
-        text-align: center;
-        font-size: 20px;
+        text-align: left;
+        font-size: 10px;
     }
 
     .fotos {
@@ -362,21 +363,146 @@ footer i:hover {
         padding: 20px;
         margin: auto;
     }
-    
-    .row{
+
+    .row {
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        padding: 5px;
-        flex-basis: 100%;
+        grid-template-rows: 2, 200px;
+        padding: 50px;
+        margin: 0;
+        grid-gap: 15px;
+    }
+    
+    .col1 {
+        padding: 30px;
+        margin: 0;
+        height: 300px;
+    }
+    
+    .col2 {
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 15px;
     }
 
-    .col1{
-        /* margin-top: 90px; */
-        grid-row: auto;
-        width: 50%;
+    .colP1{
+        width: 100%;
         height: 400px;
-        background-image: url(../img/peli1.1.jpg);
+    }
+
+    .colP2{
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .colS1{
+        background-image: url(../img/Serie\ 1.2.jpg);
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        padding: 30px;
+        margin: 40px;
+        height: 300px;
+    }
+
+    .colS2{
+        height: auto;
+        padding: 30px;
+        margin: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .colSe1{
+        background-image: url(../img/Serie\ 2.1.jpg);
+        /* background-position: center;
+        background-size: cover; */
+        width: 400px;
+        height: 450px;
+        
+    }
+
+    .colSe2{
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 15px; 
+    }
+
+    .row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2, 200px;
+        padding: 50px;
+        margin: 0;
+        grid-gap: 15px;
+    }
+    
+    .col1 {
+        /* width: 50%; */
+        padding: 30px;
+        margin: 0;
+        height: 300px;
+        /* background-image: url(../img/peli1.1.jpg); */
+    }
+
+    .col2 {
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 15px;
+    }
+
+    .colP1 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .colP2 {
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .colS1 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .colS2 {
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .colSe1 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .colSe2 {
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
     }
 
 }
+
+
